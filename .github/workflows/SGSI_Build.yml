@@ -3,12 +3,12 @@ name: SGSI_Build
 on:
   watch:
     types: [started]
-ROM_URL: https://netix.dl.sourceforge.net/project/crdroid/hotdog/10.x/crDroidAndroid-14.0-20240319-hotdog-v10.2.zip
-ZIP_NAME: update.zip
-OS_TYPE: Generic
-BUILD_TYPE: AB
-REPACK_NAME: SGSI.zip
-VERSION: 14
+    ROM_URL: https://netix.dl.sourceforge.net/project/crdroid/hotdog/10.x/crDroidAndroid-14.0-20240319-hotdog-v10.2.zip
+    ZIP_NAME: update.zip
+    OS_TYPE: Generic
+    BUILD_TYPE: AB
+    REPACK_NAME: SGSI.zip
+   VERSION: 14
 jobs:
   build:
     runs-on: ubuntu-20.04
